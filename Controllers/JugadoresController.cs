@@ -67,11 +67,6 @@ public class JugadoresController : ControllerBase
         {
             jugViejo.Username = jugNuevo.Username;
         }
-        //NO ANDA CUANDO USO EL DATE
-        if(jugNuevo.FechaNacimiento != null && jugNuevo.FechaNacimiento != jugViejo.FechaNacimiento)
-        {
-            jugViejo.FechaNacimiento = jugNuevo.FechaNacimiento;
-        }
         if(jugNuevo.FotoJugador != null && jugNuevo.FotoJugador != jugViejo.FotoJugador)
         {
             jugViejo.FotoJugador = jugNuevo.FotoJugador;

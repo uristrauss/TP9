@@ -5,7 +5,7 @@ namespace TP9.Models;
 
 public class BD {
 
-    private static string _connectionString =  @"Server=LAPTOP-RCUGHBAB\SQLEXPRESS;DataBase=CASINORT;Trusted_Connection=True;";
+    private static string _connectionString =  @"Server=A-PHZ2-AMI-014;DataBase=CASINORT;Trusted_Connection=True;";
 
 
     public static void AgregarJugador(Jugador jugador)
